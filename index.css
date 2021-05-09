@@ -1,0 +1,75 @@
+body{
+    background: url(pic2.jpg) no-repeat;
+    background-size: cover;
+   
+   }
+
+   .navbar{
+    height: 100px;
+    width: 100%;
+    background: lightblue;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: 4s;
+}
+.navbar ul li a.Active,
+.navbar ul li a:Hover{
+    background: springgreen;
+    border-radius: 2px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.logo2{
+    height: 80px;
+    width: 90px;  
+    position: absolute;
+    margin-left: 3%;
+}
+.center h1{
+    color: rgb(13, 13, 124);
+    font-size: 70px;
+    font-weight: bold;
+   width: 900px;
+   text-align-last: center;
+}
+.center h2{
+    color: darkblue;
+    font-size: 70px;
+    font-weight: bold;
+   width: 885px;
+   margin-top: 10px;
+   text-align-last: center;
+}
+.center .buttons{
+   margin: 35px 280px;
+}
+.Wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}

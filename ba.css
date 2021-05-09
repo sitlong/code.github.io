@@ -1,0 +1,48 @@
+body{
+    background: url(spy.jpg) no-repeat;
+    background-size: cover;
+   
+   }
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: lightblue;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: 4s;
+}
+.navbar ul li a.Active,
+.navbar ul li a:Hover{
+    background: darkblue;
+    border-radius: 2px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.logo2{
+    height: 80px;
+    width: 90px;  
+    position: absolute;
+    margin-left: 3%;
+}
